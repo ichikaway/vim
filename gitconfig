@@ -7,9 +7,11 @@
     co = checkout
     st = status
     cmt = commit
-    rmtv = remote -v
+    rmt = remote -v
     ba = branch -a
     b = branch
+    logp = log -p
+    logs = log --stat
 
 
 
