@@ -7,7 +7,7 @@ set hlsearch
 set ignorecase
 
 " 新しい行を開始したときに、新しい行のインデントを現在行と同じ量にする。
-set autoindent
+"set autoindent
 
 " ファイル内の <Tab> が対応する空白の数。
 ":set tabstop=4
