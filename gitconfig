@@ -1,0 +1,15 @@
+[user]
+	email = ichikaway@gmail.com
+	name = Yasushi Ichikawa
+[color]
+	ui = auto
+[alias]
+    co = checkout
+    st = status
+    cmt = commit
+    rmtv = remote -v
+    ba = branch -a
+    b = branch
+
+
+

@@ -10,7 +10,7 @@ set ignorecase
 set autoindent
 
 " ファイル内の <Tab> が対応する空白の数。
-:set tabstop=4
+":set tabstop=4
 
 
 "括弧を入力したときに、カーソルを真ん中へ
@@ -34,7 +34,8 @@ let php_htmlInStrings=1
 "autocmd FileType php  setlocal expandtab tabstop=4 shiftwidth=4 dictionary=~/.vim/dict/php.dict
 "autocmd FileType php  setlocal tags+=~/.vim/tags/cakephp_tags
 
-autocmd FileType php  setlocal expandtab tabstop=4 shiftwidth=4
+"autocmd FileType php  setlocal expandtab tabstop=4 shiftwidth=4
+autocmd FileType php  setlocal expandtab tabstop=2 shiftwidth=2
 
 "Ctrl +x +k, PHP補完表示
 autocmd FileType php  setlocal dictionary=~/.vim/dict/php.dict
@@ -58,3 +59,10 @@ highlight JpSpace cterm=underline ctermfg=Blue guifg=Blue
 au BufRead,BufNew * match JpSpace /　/
 
 
+
+"4文字以上の入力で、autopopcoml.vimを起動
+let g:AutoComplPop_IgnoreCaseOption = 4
+let g:AutoComplPop_BehaviorKeywordLength = 4
+"CSSは除外 autopopcoml.vim
+let g:AutoComplPop_BehaviorCssOmniPropertyLength = -1
+let g:AutoComplPop_BehaviorCssOmniValueLength = -1
