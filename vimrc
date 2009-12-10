@@ -66,3 +66,5 @@ let g:AutoComplPop_BehaviorKeywordLength = 4
 "CSSは除外 autopopcoml.vim
 let g:AutoComplPop_BehaviorCssOmniPropertyLength = -1
 let g:AutoComplPop_BehaviorCssOmniValueLength = -1
+let g:AutoComplPop_BehaviorHtmlOmniLength = -1
+
