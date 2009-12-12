@@ -12,6 +12,7 @@
     b = branch
     logp = log -p
     logs = log --stat
-
+    diffc = diff --cached
+    diffh = diff HEAD
 
 

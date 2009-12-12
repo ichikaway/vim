@@ -35,7 +35,8 @@ let php_htmlInStrings=1
 "autocmd FileType php  setlocal tags+=~/.vim/tags/cakephp_tags
 
 "autocmd FileType php  setlocal expandtab tabstop=4 shiftwidth=4
-autocmd FileType php  setlocal expandtab tabstop=2 shiftwidth=2
+"autocmd FileType php  setlocal expandtab tabstop=2 shiftwidth=2
+autocmd FileType php  setlocal tabstop=4 shiftwidth=4
 
 "Ctrl +x +k, PHP補完表示
 autocmd FileType php  setlocal dictionary=~/.vim/dict/php.dict
