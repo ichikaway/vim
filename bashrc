@@ -8,7 +8,7 @@ fi
 # User specific aliases and functions
 
 
-export PATH=$PATH:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/apache/bin:/usr/local/mysql/bin:/usr/local/php/bin:/usr/local/git/bin
+export PATH=$PATH:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/apache/bin:/usr/local/mysql/bin:/usr/local/php/bin:/usr/local/git/bin:/usr/local/tig/bin
 
 
 
