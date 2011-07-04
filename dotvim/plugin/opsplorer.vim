@@ -18,7 +18,7 @@ function! InitOptions()
 	let s:file_match_pattern=''
 	let s:show_hidden_files=0
 	let s:split_vertical=1
-	let s:split_width=24
+	let s:split_width=50
 	let s:split_minwidth=1
 	let s:use_colors=1
 	let s:close_explorer_after_open=0
