@@ -3,6 +3,8 @@
 	name = Yasushi Ichikawa
 [color]
 	ui = auto
+[core]
+	pager = less -r
 [alias]
     co = checkout
     st = status
