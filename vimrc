@@ -31,6 +31,9 @@ let s:split_width=128
 "inoremap "" ""<LEFT>
 "inoremap '' ''<LEFT>
 
+nnoremap x "_x
+nnoremap d "_d
+nnoremap D "_D
 
 " netrwをツリー表示に
 let g:netrw_liststyle=3
