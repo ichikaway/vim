@@ -138,13 +138,14 @@ snippet doc_i
 snippet class
 	/**
 	 * ${1}
+	 *  ${2:}
 	 **/
-	class ${2:ClassName}
+	public class ${3:ClassName}
 	{
-		${3}
-		function ${4:__construct}(${5:argument})
+		${4}
+		public function ${5:__construct}(${6:argument})
 		{
-			${6:// code...}
+			${7:// code...}
 		}
 	}
 # define(...)
@@ -203,8 +204,8 @@ snippet for
 		${4: // code...}
 	}
 snippet foreach
-	foreach ($${1:variable} as $${2:key}) {
-		${3:// code...}
+	foreach ($${1:variable} as $${2:key} => $${3:value}) {
+		${4:// code...}
 	}
 snippet fun
 	${1:public }function ${2:FunctionName}(${3})

@@ -3,6 +3,8 @@
 	name = Yasushi Ichikawa
 [color]
 	ui = auto
+[core]
+	pager = less -r
 [alias]
     co = checkout
     st = status
@@ -14,5 +16,5 @@
     logs = log --stat
     diffc = diff --cached
     diffh = diff HEAD
-
+    logg = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d'
 
