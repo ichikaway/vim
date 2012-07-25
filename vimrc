@@ -36,8 +36,9 @@ set autoindent
 "inoremap "" ""<LEFT>
 "inoremap '' ''<LEFT>
 
+" 削除キーでyankしない
 nnoremap x "_x
-nnoremap d "_d
+"nnoremap d "_d
 nnoremap D "_D
 
 " netrwをツリー表示に
@@ -54,12 +55,12 @@ let php_htmlInStrings=1
 
 "autocmd FileType php  setlocal expandtab tabstop=4 shiftwidth=4
 "autocmd FileType php  setlocal expandtab tabstop=2 shiftwidth=2
-autocmd FileType php  setlocal tabstop=2 shiftwidth=2
+autocmd FileType php  setlocal tabstop=4 shiftwidth=4
 "autocmd FileType php  setlocal tabstop=4 shiftwidth=4
 autocmd FileType php setlocal noeol binary fileformat=dos
 
 
-autocmd FileType javascript  setlocal expandtab tabstop=2 shiftwidth=2
+autocmd FileType javascript  setlocal expandtab tabstop=4 shiftwidth=4
 
 
 " cakephp用snipet
