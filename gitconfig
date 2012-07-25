@@ -7,6 +7,7 @@
 	pager = less -r
 [alias]
     co = checkout
+    cob = checkout -b
     st = status
     cmt = commit
     rmt = remote -v
