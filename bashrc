@@ -11,6 +11,8 @@ fi
 export PATH=$PATH:/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/apache/bin:/usr/local/mysql/bin:/usr/local/php/bin:/usr/local/git/bin:/usr/local/tig/bin
 
 
+alias "gpull"="git pull origin `git symbolic-ref HEAD | cut -d/ -f 3`"
+alias "gpush"="git push origin `git symbolic-ref HEAD | cut -d/ -f 3`"
 
     if [ -r "$HOME/.git-completion.bash" ]; then # = git-completion.bash
 
