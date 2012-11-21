@@ -5,6 +5,12 @@
 	ui = auto
 [core]
 	pager = less -r
+[push]
+	# push only the current branch
+	default = tracking
+[merge]
+	# from 1.7.6
+	ff = false
 [alias]
     co = checkout
     cob = checkout -b
