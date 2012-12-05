@@ -18,7 +18,26 @@ map <silent> sP :call YanktmpPaste_P()<CR>
 " 行番号
 set number
 
+" タブなどを視覚化
+set list
+set listchars=tab:>-,trail:_
 
+set scrolloff=999       " 常にカーソルがウインドウの中心に
+
+" INSERTモードでバックスペース有効
+set bs=indent,eol,start         " allow backspacing over everything in insert mode
+
+
+" カーソルにライン
+augroup cch
+ autocmd! cch
+ autocmd WinLeave * set nocursorline
+ autocmd WinEnter,BufRead * set cursorline
+augroup END
+
+
+" 色をつける
+:syntax on
 
 
 " 新しい行を開始したときに、新しい行のインデントを現在行と同じ量にする。
