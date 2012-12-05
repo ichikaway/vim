@@ -119,3 +119,5 @@ let g:AutoComplPop_BehaviorCssOmniValueLength = -1
 let g:AutoComplPop_BehaviorHtmlOmniLength = -1
 
 
+" xdebug vim
+let g:debuggerMaxDepth = 5
