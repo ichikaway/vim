@@ -76,7 +76,7 @@ let php_htmlInStrings=1
 "autocmd FileType php  setlocal expandtab tabstop=2 shiftwidth=2
 autocmd FileType php  setlocal tabstop=4 shiftwidth=4
 "autocmd FileType php  setlocal tabstop=4 shiftwidth=4
-autocmd FileType php setlocal noeol binary fileformat=dos
+"autocmd FileType php setlocal noeol binary fileformat=dos
 
 
 autocmd FileType javascript  setlocal expandtab tabstop=4 shiftwidth=4
