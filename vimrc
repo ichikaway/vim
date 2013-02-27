@@ -121,3 +121,8 @@ let g:AutoComplPop_BehaviorHtmlOmniLength = -1
 
 " xdebug vim
 let g:debuggerMaxDepth = 5
+
+
+" :makeとやるとphpファイルでphp -l実行
+autocmd filetype php :set makeprg=php\ -l\ %
+autocmd filetype php :set errorformat=%m\ in\ %f\ on\ line\ %l
